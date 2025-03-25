@@ -31,8 +31,17 @@ cd FastSearch
 ```
 
 ### Building
+```bash
+mkdir build
+```
 
-// TODO: Add build instructions here
+```bash
+g++ .\src\main.cpp -o .\build\FastSearch.exe
+```
+
+```bash
+.\build\FastSearch.exe
+```
 
 ---
 
