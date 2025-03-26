@@ -1,4 +1,6 @@
 #include <iostream>
+#include "version.h"
+
 using namespace std;
 
 int main(int argc, char *argv[]) 
@@ -20,8 +22,7 @@ int main(int argc, char *argv[])
             } 
             else if (string(argv[i]) == "-v" || string(argv[i]) == "--version") 
             {
-                cout << "FastSearch version 1.0.0" << std::endl;
-
+                cout << "FastSearch version " << FASTSEARCH_VERSION << endl;
                 return 0;
             }
         }
